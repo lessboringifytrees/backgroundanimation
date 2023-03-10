@@ -5,7 +5,7 @@ import {
 } from '@chakra-ui/react';
 import styles from 'https://cdn.jsdelivr.net/gh/lessboringifytrees/backgroundanimation/BackgroundFixed.module.css'
 
-const FixedBG = () => {
+export const FixedBG = () => {
 
     useEffect(() => {
         document.querySelectorAll('.leaf-div > div > img').forEach((el) => {
@@ -58,5 +58,3 @@ const FixedBG = () => {
         </Box>
     )
 }
-
-export default FixedBG;
