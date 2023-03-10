@@ -3,7 +3,7 @@ import {
     Box,
     Image,
 } from '@chakra-ui/react';
-import styles from '@/styles/BackgroundFixed.module.css'
+import styles from 'https://raw.githubusercontent.com/lessboringifytrees/backgroundanimation/main/BackgroundFixed.module.css'
 
 const FixedBG = () => {
 
